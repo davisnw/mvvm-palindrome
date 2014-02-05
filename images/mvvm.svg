@@ -18,6 +18,18 @@
        refX="0"
        refY="0"
        orient="auto"
+       id="marker4499"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         id="path4252"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
        id="marker4312"
        style="overflow:visible">
       <path
@@ -207,9 +219,9 @@
        id="rect2991-4"
        style="fill:#d35f5f;stroke:url(#linearGradient10606);stroke-width:0.81082147" />
     <path
-       d="M 593.39868,101.74248 379.91294,362.12872"
+       d="M 581.39868,101.74248 367.91294,362.12872"
        id="path5440"
-       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart);marker-end:url(#marker4312)" />
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:20, 5;stroke-dashoffset:0;marker-start:url(#Arrow1Mstart);marker-end:url(#marker4312)" />
     <path
        d="M 135.82651,99.885349 327.49576,362.12872"
        id="path5822"
@@ -225,28 +237,28 @@
          y="-64.621674"
          id="tspan7184">Instantiates / Manipulates</tspan></text>
     <path
-       d="M 419.91294,362.12872 633.39868,101.74248"
+       d="M 439.7234,362.12872 653.20914,101.74248"
        id="path9536"
        style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5, 5;stroke-dashoffset:0;marker-start:url(#Arrow1Mstart);marker-mid:none" />
     <text
-       x="90.415039"
-       y="585.32288"
+       x="79.616074"
+       y="558.72302"
        transform="matrix(0.62788456,-0.77830648,0.77830648,0.62788456,0,0)"
        id="text10108"
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
-         x="90.415039"
-         y="585.32288"
+         x="79.616074"
+         y="558.72302"
          id="tspan10110">(Commands)</tspan></text>
     <text
-       x="63.051826"
-       y="510.83209"
+       x="58.820827"
+       y="504.3013"
        transform="matrix(0.63307765,-0.77408829,0.77408829,0.63307765,0,0)"
        id="text10112"
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
-         x="63.051826"
-         y="510.83209"
+         x="58.820827"
+         y="504.3013"
          id="tspan10114">Data Binding</tspan></text>
     <text
        x="61.42857"
@@ -343,5 +355,19 @@
          x="34.917744"
          y="48.573936"
          id="tspan3051">(Domain)</tspan></text>
+    <path
+       d="M 501.38236,363.49627 704.84321,109.31487"
+       id="path3853"
+       style="fill:none;stroke:#000000;stroke-width:5.05378771;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5.05378764, 5.05378764;stroke-dashoffset:0;marker-start:none;marker-end:url(#marker4499)" />
+    <text
+       x="73.192642"
+       y="615.80487"
+       transform="matrix(0.59829291,-0.80127748,0.80127748,0.59829291,0,0)"
+       id="text4696"
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
+         x="73.192642"
+         y="615.80487"
+         id="tspan4698">(Messages)</tspan></text>
   </g>
 </svg>
