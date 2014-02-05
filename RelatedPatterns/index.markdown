@@ -42,4 +42,8 @@ Combining the preceding patterns, we get the MVVM pattern:
 
 [![Model View ViewModel Flow](../images/mvvm.svg)](../images/mvvm.svg)
 
-
+Notice that:
+ * The view is more active than in passive view.
+ * The controller is replaced with the presentation model.
+ * We have two different models
+ * Data Binding is two way communication.  Data Binding is a layer typically provided by a framework.
