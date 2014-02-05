@@ -6,6 +6,8 @@ next: RelatedPatterns
 
 MVVM evolved from and is related to several other patterns.
 
+Note that from a coding perspective, all of these patterns eliminate (or nearly so) the use of a "code behind" file.
+
 #[Model View Controller Pattern](http://martinfowler.com/eaaDev/uiArchs.html) (MVC)
   * A way of achieving [Separated Presentation](http://martinfowler.com/eaaDev/SeparatedPresentation.html) - that is keep our presentation logic and our domain logic from interfering with each other.
   * Often used with a [Presentation Model](http://martinfowler.com/eaaDev/PresentationModel.html)
@@ -36,6 +38,8 @@ MVVM evolved from and is related to several other patterns.
   * A view interacts with one presentation model, but the presentation model may be reused by multiple views.
  
 #Model View ViewModel Pattern
-Combining MVC and Presentation Model, we get the MVVM pattern.
+Combining the preceding patterns, we get the MVVM pattern:
+
+[![Model View ViewModel Flow](../images/mvvm.svg)](../images/mvvm.svg)
 
 

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.2"
+   width="702.42853"
+   height="469.51639"
+   id="svg2">
+  <defs
+     id="defs4">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="marker4312"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         id="path4065"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         id="path3877"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="TriangleInM"
+       style="overflow:visible">
+      <path
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         transform="scale(-0.4,-0.4)"
+         id="path4004"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Sstart"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(0.3,0,0,0.3,-0.69,0)"
+         id="path3898"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         id="path3874"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         id="path3868"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <linearGradient
+       id="linearGradient3769">
+      <stop
+         id="stop3771"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3773"
+         style="stop-color:#000000;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3761">
+      <stop
+         id="stop3763"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0" />
+    </linearGradient>
+    <linearGradient
+       x1="340.92856"
+       y1="189.50504"
+       x2="519.07141"
+       y2="189.50504"
+       id="linearGradient3777"
+       xlink:href="#linearGradient3769"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       x1="90"
+       y1="178.79076"
+       x2="258.57144"
+       y2="178.79076"
+       id="linearGradient3765-1"
+       xlink:href="#linearGradient3761-6"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient3761-6">
+      <stop
+         id="stop3763-6"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0" />
+    </linearGradient>
+    <linearGradient
+       x1="90"
+       y1="178.79076"
+       x2="258.57144"
+       y2="178.79076"
+       id="linearGradient3765-0"
+       xlink:href="#linearGradient3761-2"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient3761-2">
+      <stop
+         id="stop3763-5"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0" />
+    </linearGradient>
+    <linearGradient
+       x1="90"
+       y1="178.79076"
+       x2="258.57144"
+       y2="178.79076"
+       id="linearGradient10602"
+       xlink:href="#linearGradient3761"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0011222,0,0,0.65669454,-68.481305,-58.334441)" />
+    <linearGradient
+       x1="90"
+       y1="178.79076"
+       x2="258.57144"
+       y2="178.79076"
+       id="linearGradient10604"
+       xlink:href="#linearGradient3761-6"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.8606382,0,0,0.9175563,-129.29857,255.49837)" />
+    <linearGradient
+       x1="90"
+       y1="178.79076"
+       x2="258.57144"
+       y2="178.79076"
+       id="linearGradient10606"
+       xlink:href="#linearGradient3761-2"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0011222,0,0,0.65669454,454.37582,-56.477305)" />
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-16.214283,-12.862186)"
+     id="layer1">
+    <rect
+       width="168.7606"
+       height="81.617752"
+       x="21.619694"
+       y="18.267597"
+       id="rect2991"
+       style="fill:#00ffff;stroke:url(#linearGradient10602);stroke-width:0.81082147" />
+    <rect
+       width="482.22192"
+       height="114.03915"
+       x="128.15886"
+       y="362.52936"
+       id="rect2991-3"
+       style="fill:#00ff00;stroke:url(#linearGradient10604);stroke-width:1.62012255" />
+    <rect
+       width="168.7606"
+       height="81.617752"
+       x="544.47681"
+       y="20.124729"
+       id="rect2991-4"
+       style="fill:#d35f5f;stroke:url(#linearGradient10606);stroke-width:0.81082147" />
+    <path
+       d="M 593.39868,101.74248 379.91294,362.12872"
+       id="path5440"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart);marker-end:url(#marker4312)" />
+    <path
+       d="M 135.82651,99.885349 327.49576,362.12872"
+       id="path5822"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart);marker-mid:none;marker-end:none" />
+    <text
+       x="203.81058"
+       y="-64.621674"
+       transform="matrix(0.58127377,0.81370806,-0.81370806,0.58127377,0,0)"
+       id="text7182"
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
+         x="203.81058"
+         y="-64.621674"
+         id="tspan7184">Instantiates / Manipulates</tspan></text>
+    <path
+       d="M 419.91294,362.12872 633.39868,101.74248"
+       id="path9536"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5, 5;stroke-dashoffset:0;marker-start:url(#Arrow1Mstart);marker-mid:none" />
+    <text
+       x="90.415039"
+       y="585.32288"
+       transform="matrix(0.62788456,-0.77830648,0.77830648,0.62788456,0,0)"
+       id="text10108"
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
+         x="90.415039"
+         y="585.32288"
+         id="tspan10110">(Commands)</tspan></text>
+    <text
+       x="63.051826"
+       y="510.83209"
+       transform="matrix(0.63307765,-0.77408829,0.77408829,0.63307765,0,0)"
+       id="text10112"
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
+         x="63.051826"
+         y="510.83209"
+         id="tspan10114">Data Binding</tspan></text>
+    <text
+       x="61.42857"
+       y="500.93362"
+       id="text10120"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="61.42857"
+         y="500.93362"
+         id="tspan10122" /></text>
+    <text
+       x="582.62207"
+       y="73.04892"
+       id="text3070"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="582.62207"
+         y="73.04892"
+         id="tspan3072"><tspan
+   id="tspan3055"
+   style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans Bold">V</tspan>iew</tspan></text>
+    <text
+       x="50.070686"
+       y="90.001266"
+       id="text3074"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="50.070686"
+         y="90.001266"
+         id="tspan3076"><tspan
+   id="tspan3053"
+   style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans Bold">M</tspan>odel</tspan></text>
+    <text
+       x="203.2571"
+       y="408.18445"
+       id="text3078"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="203.2571"
+         y="408.18445"
+         id="tspan3080">Presentation Model</tspan><tspan
+         x="203.2571"
+         y="408.18445"
+         id="tspan3038" /><tspan
+         x="203.2571"
+         y="408.18445"
+         id="tspan3040" /><tspan
+         x="203.2571"
+         y="408.18445"
+         id="tspan3042" /><tspan
+         x="203.2571"
+         y="408.18445"
+         id="tspan3044" /><tspan
+         x="203.2571"
+         y="408.18445"
+         id="tspan3046" /><tspan
+         x="203.2571"
+         y="408.18445"
+         id="tspan3048" /><tspan
+         x="203.2571"
+         y="408.18445"
+         id="tspan3050" /><tspan
+         x="203.2571"
+         y="408.18445"
+         id="tspan3052" /><tspan
+         x="203.2571"
+         y="408.18445"
+         id="tspan3054" /><tspan
+         x="203.2571"
+         y="408.18445"
+         id="tspan3056" /></text>
+    <text
+       x="261.30783"
+       y="397.92828"
+       id="text3058"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="261.30783"
+         y="397.92828"
+         id="tspan3060" /><tspan
+         x="261.30783"
+         y="447.92828"
+         id="tspan3062">(<tspan
+   id="tspan3057"
+   style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans Bold">V</tspan>iew<tspan
+   id="tspan3059"
+   style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans Bold">M</tspan>odel)</tspan></text>
+    <text
+       x="34.917744"
+       y="48.573936"
+       id="text3049"
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
+         x="34.917744"
+         y="48.573936"
+         id="tspan3051">(Domain)</tspan></text>
+  </g>
+</svg>
