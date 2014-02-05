@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.2"
-   width="717.0293"
-   height="522.89545"
+   width="702.42853"
+   height="424.85709"
    id="svg2">
   <defs
      id="defs4">
@@ -171,7 +171,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-9.4792109,-9.0106201)"
+     transform="translate(-16.214283,-12.862186)"
      id="layer1">
     <rect
        width="168.7606"
@@ -195,10 +195,6 @@
        id="rect2991-4"
        style="fill:#d35f5f;stroke:url(#linearGradient10606);stroke-width:0.81082147" />
     <path
-       d="m 190.3803,43.661897 354.09651,1.257712"
-       id="path3860"
-       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5, 5;stroke-dashoffset:0;marker-start:none;marker-end:url(#Arrow1Mend)" />
-    <path
        d="M 593.39868,101.74248 379.91294,362.12872"
        id="path5440"
        style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart);marker-end:none" />
@@ -216,61 +212,16 @@
          x="203.81058"
          y="-64.621674"
          id="tspan7184">Instantiates / Manipulates</tspan></text>
-    <path
-       d="M 544.47681,74.633895 190.3803,73.376183"
-       id="path8384"
-       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow1Mend)" />
     <text
-       x="250"
-       y="32.362183"
-       id="text8956"
-       xml:space="preserve"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
-         x="250"
-         y="32.362183"
-         id="tspan8958">Notifies of changes</tspan></text>
-    <text
-       x="262.85715"
-       y="100.6479"
-       id="text8960"
-       xml:space="preserve"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
-         x="262.85715"
-         y="100.6479"
-         id="tspan8962">Renders/Queries</tspan></text>
-    <path
-       d="M 419.91294,362.12872 633.39868,101.74248"
-       id="path9536"
-       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:5, 5;stroke-dashoffset:0;marker-start:url(#Arrow1Mstart);marker-mid:none" />
-    <text
-       x="47.583206"
-       y="581.62329"
-       transform="matrix(0.62788456,-0.77830648,0.77830648,0.62788456,0,0)"
-       id="text10108"
-       xml:space="preserve"
-       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
-         x="47.583206"
-         y="581.62329"
-         id="tspan10110">Notifies of User Actions</tspan></text>
-    <text
-       x="63.051826"
-       y="510.83209"
+       x="-35.753517"
+       y="511.50995"
        transform="matrix(0.63307765,-0.77408829,0.77408829,0.63307765,0,0)"
        id="text10112"
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
-         x="63.051826"
-         y="510.83209"
-         id="tspan10114">Selects View</tspan></text>
-    <text
-       x="15.714285"
-       y="485.21933"
-       id="text10116"
-       xml:space="preserve"
-       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
-         x="15.714285"
-         y="485.21933"
-         id="tspan10118">Solid lines indicate communication via a direct object reference.</tspan></text>
+         x="-35.753517"
+         y="511.50995"
+         id="tspan10114">Selects View / Updates View</tspan></text>
     <text
        x="61.42857"
        y="500.93362"
@@ -280,15 +231,6 @@
          x="61.42857"
          y="500.93362"
          id="tspan10122" /></text>
-    <text
-       x="12.857141"
-       y="522.36212"
-       id="text10126"
-       xml:space="preserve"
-       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
-         x="12.857141"
-         y="522.36212"
-         id="tspan10128">Dashed lines indicates communication via an indirect means, e.g. events.</tspan></text>
     <text
        x="582.62207"
        y="73.04892"
