@@ -10,6 +10,9 @@ MVVM originated at Microsoft, but has since been applied to other technologies. 
 * [TechDays 2010: Understanding the Model-View-ViewModel pattern](http://www.galasoft.ch/mvvmvideo1)
 * [Deep Dive MVVM](http://www.galasoft.ch/mvvmvideo2)
 
+[martinfowler.com](http://martinfowler.com) is also used extensively as a resource.
+
+Any errors or inaccuracies are mine.
 
 We will examine MVVM in 4 parts:
 
