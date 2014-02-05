@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 title:  "Related Patterns"
-next: RelatedPatterns
+next: WhyUseMvvm
 ---
 
 MVVM evolved from and is related to several other patterns.
