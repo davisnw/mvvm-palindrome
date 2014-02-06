@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 title:  "Why Use MVVM?"
-next: WhyUseMvvm
+next: MvvmCommonUses
 ---
 
 Why use MVVM? Because it's a palindrome! And I like palindromes :-).
