@@ -1,3 +1,4 @@
+using DomainModel;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using System.Threading.Tasks;
@@ -19,11 +20,15 @@ namespace MvvmPalindrome.ViewModel
     /// </summary>
     public class MainViewModel : ViewModelBase
     {
+        private readonly IPalindromeEvaluationService _palindromeEvaluationService;
+
         /// <summary>
         /// Initializes a new instance of the MainViewModel class.
         /// </summary>
-        public MainViewModel()
+        public MainViewModel(IPalindromeEvaluationService palindromeEvaluationService)
         {
+            _palindromeEvaluationService = palindromeEvaluationService;
+
             if (IsInDesignMode)
             {
                 // Code runs in Blend --> create design time data.
@@ -50,7 +55,7 @@ namespace MvvmPalindrome.ViewModel
             });
 
             //InitializeCommands
-            CheckIfInputIsAPalindromeCommand = new RelayCommand(() => Output = string.Format("I don't know how to check if \"{0}\" is a palindrome yet.", Input));
+            CheckIfInputIsAPalindromeCommand = new RelayCommand(CheckIfInputIsAPalindromeCommandImplementation);
         }
 
         private string _output = null;
@@ -76,6 +81,14 @@ namespace MvvmPalindrome.ViewModel
         /// the command will only be set once - when the view model is instantiated.
         /// </summary>
         public ICommand CheckIfInputIsAPalindromeCommand { get; private set; }
+
+        private void CheckIfInputIsAPalindromeCommandImplementation()
+        {
+            if (_palindromeEvaluationService.IsAPalindrome(Input))
+                Output = string.Format("Yay! \"{0}\" is a palindrome!!!", Input);
+            else
+                Output = string.Format(string.Format("Boo! \"{0}\" is a not palindrome. :-(", Input));
+        }
 
         #endregion
     }

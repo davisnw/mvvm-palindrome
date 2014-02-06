@@ -12,6 +12,7 @@
   See http://www.galasoft.ch/mvvm
 */
 
+using DomainModel;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
 using Microsoft.Practices.ServiceLocation;
@@ -43,6 +44,7 @@ namespace MvvmPalindrome.ViewModel
             ////}
 
             SimpleIoc.Default.Register<MainViewModel>();
+            SimpleIoc.Default.Register<IPalindromeEvaluationService>(() => new PalindromeEvaluationService());
         }
 
         public MainViewModel Main
