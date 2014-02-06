@@ -19,10 +19,10 @@ Examples (checkout specific revision to run):
  * [Example 3 - Introducing Commands and two-way binding](https://github.com/davisnw/mvvm-palindrome/commit/7fb777cef479f3b2209479f10efd69903db7e5c8)
  * [Example 4 - Introducing Behaviors and Dependency Properties](https://github.com/davisnw/mvvm-palindrome/commit/4d82bc81eee41a440d0f7e474c2c8fd41a09d8cd)
  * [Example 5 - Introducing testing, SimpleIoC and domain model interaction](https://github.com/davisnw/mvvm-palindrome/commit/079276a11adc6787553e24cfe973cbc9842f191b)
- * Example 6 - Introducing custom views (user controls) and data templates.
- * Example 7 - Introducing Messaging
- * Example 8 - Introducing Binding Converters / markup extensions.
- * Example 9 - Binding to Collections
+ * Example 6 - Introducing custom views (user controls) and content presenter and data templates - Pending "Metro XAML" does not deal with this in the same was that "WPF XAML" does. Possibly need to implement a custom data template selector.
+ * Example 7 - Introducing Messaging (pending)
+ * Example 8 - Introducing Binding Converters / markup extensions. (pending)
+ * Example 9 - Binding to Collections (pending)
  
 
 
