@@ -16,15 +16,17 @@ Examples (checkout specific revision to run):
 
  * [Example 1 - "One Time" binding with separate design and runtime data.](https://github.com/davisnw/mvvm-palindrome/commit/015aad31891c126edc97a0551c38a4f5e1406c8b)
  * [Example 2 - Binding that responds to value changes - raising notify property changed](https://github.com/davisnw/mvvm-palindrome/commit/af82fb82b333a27e1ea7811c6f3eb06880f63d10)
+ * [Example 3 - Introducing Commands and two-way binding](https://github.com/davisnw/mvvm-palindrome/commit/7fb777cef479f3b2209479f10efd69903db7e5c8)
 
 
 
 
 
 TODO:  
-Commands
 EventToCommand
 Binding Converters
 Data Templates
 Unit Tests
+Observable Collections
 Domain Model
+Triggers?
