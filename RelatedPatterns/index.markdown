@@ -6,7 +6,7 @@ next: WhyUseMvvm
 
 MVVM evolved from and is related to several other patterns.
 
-Note that from a coding perspective, all of these patterns eliminate (or nearly so) the use of a "code behind" file.
+Note that from a coding perspective, all of these patterns eliminate (or nearly so) the use of a "code behind" file.  Code behind code is much more difficult to test, and should be minimized - but in some cases it is helpful (though it should not be the first choice).
 
 #[Model View Controller Pattern](http://martinfowler.com/eaaDev/uiArchs.html) (MVC)
   * A way of achieving [Separated Presentation](http://martinfowler.com/eaaDev/SeparatedPresentation.html) - that is keep our presentation logic and our domain logic from interfering with each other.
@@ -47,3 +47,14 @@ Notice that:
  * The controller is replaced with the presentation model.
  * We have two different models
  * Data Binding is two way communication.  Data Binding is a layer typically provided by a framework.
+ * The ViewModel has *no knowledge* of the View.
+ * The View knows the data of the model. (This is not always explicitly specified in the view - e.g. when using data templates - but you will typically have a one-to-one correspondence between a view and a viewmodel).
+ 
+ Though technically distinct from the MVVM pattern, commands and messages are frequently heavily used within systems utilizing MVVM:
+ 
+ [![MVVM Commands and Messages](../images/mvvm_commands_messages.svg)](../images/mvvm_commands_messages.svg)
+ 
+ Note that:
+ * Messages are very decoupled, senders and receivers of messages are completely ignorant of each other.
+ * Messages can communicate between viewmodels or views.  In practice, I have never needed messages between viewmodels and views because databinding is usually sufficient.  The more common scenario is messaging between view models.
+ * Views send commands to the view model (often in response to user actions, such as a button click).  Commands in the view are typically databound via view model properties.
