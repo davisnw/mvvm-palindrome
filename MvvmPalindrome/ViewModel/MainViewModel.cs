@@ -1,5 +1,7 @@
 using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.Command;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace MvvmPalindrome.ViewModel
 {
@@ -46,6 +48,9 @@ namespace MvvmPalindrome.ViewModel
 
                 return 42;
             });
+
+            //InitializeCommands
+            CheckIfInputIsAPalindromeCommand = new RelayCommand(() => Output = string.Format("I don't know how to check if \"{0}\" is a palindrome yet.", Input));
         }
 
         private string _output = null;
@@ -55,5 +60,23 @@ namespace MvvmPalindrome.ViewModel
             get { return _output; }
             set { Set(ref _output, value); }
         }
+
+        private string _input = null;
+
+        public string Input
+        {
+            get { return _input; }
+            set { Set(ref _input, value);}
+        }
+
+        #region Commands
+
+        /// <summary>
+        /// Note that I don't bother having the command property raise the PropertyChangedEvent, because
+        /// the command will only be set once - when the view model is instantiated.
+        /// </summary>
+        public ICommand CheckIfInputIsAPalindromeCommand { get; private set; }
+
+        #endregion
     }
 }
