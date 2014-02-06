@@ -1,4 +1,5 @@
 using GalaSoft.MvvmLight;
+using System.Threading.Tasks;
 
 namespace MvvmPalindrome.ViewModel
 {
@@ -31,8 +32,28 @@ namespace MvvmPalindrome.ViewModel
                 // Code runs "for real"
                 Output = "Hello Real World!";
             }
+
+            var t = Task.Run(async delegate
+            {
+                await Task.Delay(3000);
+
+                //Must modify view model on the UI thread, or we risk crashing the app.
+                Windows.ApplicationModel.Core.CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal,
+                () =>
+                {
+                    Output = "Hello Delayed World!";
+                });
+
+                return 42;
+            });
         }
 
-        public string Output { get; set; }
+        private string _output = null;
+
+        public string Output
+        {
+            get { return _output; }
+            set { Set(ref _output, value); }
+        }
     }
 }
