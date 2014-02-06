@@ -5,6 +5,8 @@
     xmlns:local="using:MvvmPalindrome"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Interactivity="using:Microsoft.Xaml.Interactivity"
+    xmlns:Behaviors="using:MvvmPalindrome.Behaviors"
     DataContext="{Binding Main, Source={StaticResource Locator}}"
     mc:Ignorable="d">
 
@@ -24,7 +26,11 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
-            <TextBox Text="{Binding Input, Mode=TwoWay}" Grid.Row="1" Grid.Column="0"/>
+            <TextBox Text="{Binding Input, Mode=TwoWay}" Grid.Row="1" Grid.Column="0">
+                <Interactivity:Interaction.Behaviors>
+                    <Behaviors:CommandOnEnterKeyBehavior Command="{Binding CheckIfInputIsAPalindromeCommand}" />
+                </Interactivity:Interaction.Behaviors>
+            </TextBox>
             <Button Command="{Binding CheckIfInputIsAPalindromeCommand}" Grid.Row="1" Grid.Column="1">Is It a Palindrome?</Button>
         </Grid>
     </Grid>
